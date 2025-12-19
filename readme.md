@@ -61,20 +61,24 @@ DeutscheGrab is a Flask-based web application designed to help users master Germ
 
 ## Project Structure
 
-  DEUTSCHEGRAB/
-  ├── data/                			    # Main vocabulary dataset (vocabulary.csv)
-  ├── models/              			    # Database models and ML logic scripts
-  ├── static/             			    # Frontend assets (CSS and JavaScript)
-  ├── templates/          			    # Jinja2 HTML templates for the UI
-  ├── app.py             	  		    # Main Flask application logic
-  ├── config.py           			    # Application configuration settings
-  ├── run.py              			    # Entry point script to start the server
-  ├── Dockerfile             		    # Instructions for building the Docker image
-  ├── docker-compose.yml            # Orchestrates the container and port mapping
-  ├── requirements.txt              # Python library dependencies
-  ├── deutschegrab.db    		        # SQLite database (generated at runtime)
-  ├── .env                   		    # Environment variables (hidden)
-  └── .gitignore         	          # Files excluded from version control
+<pre>
+
+Plaintext
+DEUTSCHEGRAB/
+├── data/                  # Main vocabulary dataset (vocabulary.csv)
+├── models/                # Database models and ML logic scripts
+├── static/                # Frontend assets (CSS and JavaScript)
+├── templates/             # Jinja2 HTML templates for the UI
+├── app.py                 # Main Flask application logic
+├── config.py              # Application configuration settings
+├── run.py                 # Entry point script to start the server
+├── Dockerfile             # Instructions for building the Docker image
+├── docker-compose.yml     # Orchestrates the container and port mapping
+├── requirements.txt       # Python library dependencies
+├── deutschegrab.db        # SQLite database (generated at runtime)
+├── .env                   # Environment variables (hidden)
+└── .gitignore             # Files excluded from version control
+</pre>
 
 
 ## Setup and Local Run
